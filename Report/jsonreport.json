@@ -1,0 +1,425 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4854264500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chromebrowser and maximize window",
+            "match": {
+              "location": "FbLogin.to_launch_the_chromebrowser_and_maximize_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "To validate login  with valid username and  invalid password",
+        "description": "",
+        "id": "to-validate-login-functionality-of-facebook-application;to-validate-login--with-valid-username-and--invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11805217800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To launch the url of the facebook application",
+            "match": {
+              "location": "FbLogin.to_launch_the_url_of_the_facebook_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1312785000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To pass the valid usermname in email field",
+            "match": {
+              "location": "FbLogin.to_pass_the_valid_usermname_in_email_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 356187900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To pass invalid password  in password field",
+            "match": {
+              "location": "FbLogin.to_pass_invalid_password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164984300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click the login button",
+            "match": {
+              "location": "FbLogin.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To check whether navigate to the home page or not",
+            "match": {
+              "location": "FbLogin.to_check_whether_navigate_to_the_home_page_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2035862300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To close thhe browser",
+            "match": {
+              "location": "FbLogin.to_close_thhe_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3264216500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chromebrowser and maximize window",
+            "match": {
+              "location": "FbLogin.to_launch_the_chromebrowser_and_maximize_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "To vaidate the positive and nagative combination of login functionality",
+        "description": "",
+        "id": "to-validate-login-functionality-of-facebook-application;to-vaidate-the-positive-and-nagative-combination-of-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11706866100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to hit the facebook url",
+            "match": {
+              "location": "positiveAndNegative.user_has_to_hit_the_facebook_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 305877800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to pass the data \"seleniuum@gmail.com\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"seleniuum@gmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "positiveAndNegative.user_has_to_pass_the_data_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 301970200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has to pass the data \"inmakes\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"inmakes\"",
+                  "offset": 26
+                }
+              ],
+              "location": "positiveAndNegative.user_has_to_pass_the_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169369900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User has to click login button",
+            "match": {
+              "location": "positiveAndNegative.user_has_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1386381100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User has to close the browser",
+            "match": {
+              "location": "positiveAndNegative.user_has_to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4640892900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chromebrowser and maximize window",
+            "match": {
+              "location": "FbLogin.to_launch_the_chromebrowser_and_maximize_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "To vaidate the positive and nagative combination of login functionality",
+        "description": "",
+        "id": "to-validate-login-functionality-of-facebook-application;to-vaidate-the-positive-and-nagative-combination-of-login-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12510687100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to hit the facebook url",
+            "match": {
+              "location": "positiveAndNegative.user_has_to_hit_the_facebook_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 219687300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to pass the data \"nssnj@gmail.com\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nssnj@gmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "positiveAndNegative.user_has_to_pass_the_data_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174753600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has to pass the data \"1234\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1234\"",
+                  "offset": 26
+                }
+              ],
+              "location": "positiveAndNegative.user_has_to_pass_the_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203118300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User has to click login button",
+            "match": {
+              "location": "positiveAndNegative.user_has_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 629880000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User has to close the browser",
+            "match": {
+              "location": "positiveAndNegative.user_has_to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3428170300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chromebrowser and maximize window",
+            "match": {
+              "location": "FbLogin.to_launch_the_chromebrowser_and_maximize_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "To vaidate the positive and nagative combination of login functionality",
+        "description": "",
+        "id": "to-validate-login-functionality-of-facebook-application;to-vaidate-the-positive-and-nagative-combination-of-login-functionality;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10422944800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to hit the facebook url",
+            "match": {
+              "location": "positiveAndNegative.user_has_to_hit_the_facebook_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 197603500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to pass the data \"bjhgsh@gmail.com\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bjhgsh@gmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "positiveAndNegative.user_has_to_pass_the_data_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174101400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has to pass the data \"hhft23\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hhft23\"",
+                  "offset": 26
+                }
+              ],
+              "location": "positiveAndNegative.user_has_to_pass_the_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132431900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User has to click login button",
+            "match": {
+              "location": "positiveAndNegative.user_has_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 484591900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User has to close the browser",
+            "match": {
+              "location": "positiveAndNegative.user_has_to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate login functionality of facebook application",
+    "description": "",
+    "id": "to-validate-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/fbRegistration.feature",
+    "tags": []
+  }
+]

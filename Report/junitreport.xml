@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="70.897521">
+    <testcase classname="To validate login functionality of facebook application" name="To validate login  with valid username and  invalid password" time="20.539765">
+        <system-out><![CDATA[Given To launch the chromebrowser and maximize window.......................passed
+When To launch the url of the facebook application..........................passed
+And To pass the valid usermname in email field..............................passed
+And To pass invalid password  in password field.............................passed
+And To click the login button...............................................passed
+And To check whether navigate to the home page or not.......................passed
+Then To close thhe browser..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate login functionality of facebook application" name="To vaidate the positive and nagative combination of login functionality" time="17.13646">
+        <system-out><![CDATA[Given To launch the chromebrowser and maximize window.......................passed
+When User has to hit the facebook url.......................................passed
+And User has to pass the data "seleniuum@gmail.com" in email field..........passed
+And User has to pass the data "inmakes" in password field...................passed
+And User has to click login button..........................................passed
+Then User has to close the browser..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate login functionality of facebook application" name="To vaidate the positive and nagative combination of login functionality 2" time="18.38046">
+        <system-out><![CDATA[Given To launch the chromebrowser and maximize window.......................passed
+When User has to hit the facebook url.......................................passed
+And User has to pass the data "nssnj@gmail.com" in email field..............passed
+And User has to pass the data "1234" in password field......................passed
+And User has to click login button..........................................passed
+Then User has to close the browser..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate login functionality of facebook application" name="To vaidate the positive and nagative combination of login functionality 3" time="14.840836">
+        <system-out><![CDATA[Given To launch the chromebrowser and maximize window.......................passed
+When User has to hit the facebook url.......................................passed
+And User has to pass the data "bjhgsh@gmail.com" in email field.............passed
+And User has to pass the data "hhft23" in password field....................passed
+And User has to click login button..........................................passed
+Then User has to close the browser..........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
